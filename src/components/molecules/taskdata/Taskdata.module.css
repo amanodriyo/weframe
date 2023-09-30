@@ -1,0 +1,53 @@
+.taskBoard{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark1);
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.taskColumnsContainer{
+    display: flex;
+    overflow-x: auto;
+}
+
+.taskColumn{
+    flex: 0 0 auto;
+    margin-right: 15px;
+    width: 14.5rem;
+}
+
+.addButton{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--card);
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--purple);
+    cursor: pointer;
+}
+
+.addButton:hover{
+    color: white;
+    background-color: var(--purple);
+}
+
+.emptySection{
+    background-color: var(--card);
+    border-radius: 10px;
+    padding: 0.7rem;
+}
+
+.moveCard{
+    margin: auto;
+    font-size: 14px;
+    height: 2rem;
+    background-color: var(--dark2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted var(--purple);
+}

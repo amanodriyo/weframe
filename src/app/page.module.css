@@ -1,0 +1,65 @@
+.main{
+  display: flex;
+}
+
+.webSidebar{
+  width: 20vw;
+}
+
+.rightWrapper{
+  background-color: var(--dark1);
+  width: 80vw;
+}
+
+.navWrapper{
+  height: 10vh;
+}
+
+.taskWrapper{
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-top: 1vh;
+}
+
+@media (max-width: 450px){
+  .rightWrapper{
+    width: 100vw;
+  }
+
+  .webNav{
+    display: none;
+  }
+
+  .webSidebar{
+    display:none;
+  }
+
+  .taskWrapper{
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+
+  .main{
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .mobSidebar{
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media(min-width: 456px){
+  .mobNav{
+    display: none;
+  }
+
+  .mobSidebar{
+    display: none;
+  }
+
+}

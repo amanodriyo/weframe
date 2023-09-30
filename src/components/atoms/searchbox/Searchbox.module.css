@@ -1,0 +1,25 @@
+.searchbar{
+    display: flex;
+    width: 15rem;
+    height: 2rem;
+}
+
+.searchInput{
+    border: none;
+    background-color: var(--card);
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 40px;
+    margin-left: -20px;
+}
+
+.searchImg{
+   width: 20px;
+   height: 20px;
+}
+
+.searchImgConatiner{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}

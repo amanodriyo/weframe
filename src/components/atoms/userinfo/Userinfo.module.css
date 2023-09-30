@@ -1,0 +1,17 @@
+.profileInfoConatiner{
+    display: flex;
+    width: 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profilePic{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--circlegray);
+    border-radius: 10px;
+}
+
+.profileText > p{
+    font-size: 12px;
+}

@@ -1,0 +1,50 @@
+.ulConatiner{
+    height: 67vh;
+}
+
+.ulHeading{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 3vh;
+}
+
+.listItems{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+.listLabel{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.listDataConatiner{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listNotification{
+    background-color: var(--accent1);
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 50%;
+    position: relative;
+    top: -3px;
+    margin-right: 10px;
+}
+
+.listButton{
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--accent2);
+    color: var(--white);
+}

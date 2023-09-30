@@ -1,0 +1,29 @@
+.iconListConatiner{
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+}
+
+.iconListConatiner > li{
+    list-style: none;
+}
+
+.iconListConatiner > li > div{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -33px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.iconListConatiner > li > div> span{
+    font-size: 10px;
+    font-weight: 700;
+    color: black;
+}

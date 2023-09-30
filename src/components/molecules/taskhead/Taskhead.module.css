@@ -1,0 +1,131 @@
+.taskConatiner{
+    width: 100%;
+    height: 25vh;
+    background-color: var(--dark2);
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskButtons{
+   display: flex;
+   width: 80%;
+   justify-content: space-between;
+   margin-left: 20px;
+}
+
+.taskButtonConatiner{
+    display: flex;
+}
+
+.taskHeader{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.taskHeaderTwo{
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--gray1);
+}
+
+.taskLeftConatiner{
+    display: flex;
+    height: 100%;
+    width: 60%;
+}
+
+.taskArrowConatiner{
+    margin-right: 10px;
+}
+
+.taskHeaderConatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.taskCompanyConatiner{
+    display: flex;
+    align-items: center;
+}
+
+.companyText{
+   text-align: right;
+}
+
+.companyText > div{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.companyText > p{
+    font-size: 12px;
+    color: var(--gray1);
+}
+
+.totalProgress{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.taskRightConatiner{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.totalProgressHeading{
+    font-size: 14px;
+}
+
+@media (max-width: 450px){
+    .taskArrowConatiner{
+        display: none;
+    }
+
+    .taskCompanyConatiner{
+        display: none;
+    }
+
+    .taskLeftConatiner{
+        width: 140%;
+        height: 80%;
+    }
+
+    .taskConatiner{
+        display: block;
+        padding: 10px;
+        margin-bottom: 3vh;
+    }
+
+    .taskButtonConatiner{
+        display: block;
+    }
+
+    .taskButtons{
+        width: 80%;
+        display: flex;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .taskButtons > *{
+        margin-right: 5px;
+    }
+
+    .taskRightConatiner{
+        width: 80%;
+        position: relative;
+        top: -8vh;
+    }
+}

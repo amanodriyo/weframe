@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: var(--white);
+}
+
+:root {
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+}
+
+:root {
+  --dark1:#0D0B21;
+  --dark2: #15132B;
+  --card: #211A75;
+  --iris: #7879F1;
+  --white: #FFFFFF;
+  --gray1: #A5A5A5;
+  --purple: #6418C3;
+  --graypurple: #464366;
+  --accent2: #E328AF;
+  --accent1: #5ECFFF;
+  --circlegray: #C4C4C4;
+}
